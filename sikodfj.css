@@ -1,0 +1,54 @@
+body {
+    overflow-x: hidden;
+    background-color: #134;
+    color: #FFF;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(#210098, #080025);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.title > span {
+    font-size: 50px;
+    margin: 0;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.subtitle {
+    color: #CCC;
+}
+
+hr {
+    height: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.download {
+    display: inline-flex;
+    text-decoration: none;
+
+    background-color: #FFF;
+    color: #00F;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: center;
+    
+    width: 15em;
+    height: 2em;
+}
+.windows_icon {
+    width: 32px;
+    height: 32px;
+    background-image: url("Windows11.png");
+    background-size: 32px;
+}
