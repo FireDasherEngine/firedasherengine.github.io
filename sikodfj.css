@@ -36,19 +36,34 @@ hr {
     display: inline-flex;
     text-decoration: none;
 
-    background-color: #FFF;
-    color: #00F;
-    border-radius: 10px;
-
-    align-items: center;
-    justify-content: center;
-    
     width: 15em;
     height: 2em;
+    
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+    padding: 5px;
+
+    background-color: #023;
+    border: 2px solid #FFF;
+    color: #8FF;
+    border-radius: 10px;
+
+    transition: scale 0.25s ease-in-out;
+    &:hover {
+        scale: 1.1;
+    }
 }
-.windows_icon {
+.icon {
     width: 32px;
     height: 32px;
-    background-image: url("Windows11.png");
     background-size: 32px;
+    margin: 5px;
+}
+.windows {
+    background-image: url("Windows11.png");
+}
+.github {
+    background-image: url("GitHub.png");
 }
