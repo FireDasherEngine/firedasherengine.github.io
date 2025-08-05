@@ -55,25 +55,20 @@ hr {
         scale: 1.1;
     }
 }
+
 .icon {
     width: 32px;
     height: 32px;
-    background-size: 32px;
     margin: 5px;
-}
-.windows {
-    background-image: url("images/logos/Windows11.png");
-}
-.github {
-    background-image: url("images/logos/GitHub.png");
 }
 
 .link_icon {
-    position: relative;
-    top: 4px;
-    left: 2px;
-    transition: all 0.5s;
+    /*position: relative;
+    top: 0.25em;*/
+    height: 1em;
+    width: auto;
+    transition: scale 0.5s;
     &:hover {
-        transform: scale(120%);
+        scale: 1.5;
     }
 }
