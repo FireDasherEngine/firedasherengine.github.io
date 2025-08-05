@@ -1,1 +1,1 @@
-createTitle("404 not found!");
+createTitle("404 not found!", document.querySelector(".title"));
