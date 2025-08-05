@@ -62,8 +62,18 @@ hr {
     margin: 5px;
 }
 .windows {
-    background-image: url("Windows11.png");
+    background-image: url("images/logos/Windows11.png");
 }
 .github {
-    background-image: url("GitHub.png");
+    background-image: url("images/logos/GitHub.png");
+}
+
+.link_icon {
+    position: relative;
+    top: 4px;
+    left: 2px;
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(120%);
+    }
 }
